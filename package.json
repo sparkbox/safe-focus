@@ -1,0 +1,43 @@
+{
+  "name": "@sparkbox/safe-focus",
+  "version": "1.0.0",
+  "description": "A utility file to add a custom outline style for all selectable components.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparkbox/safe-focus.git"
+  },
+  "keywords": [
+    "safe",
+    "focus",
+    "tab"
+  ],
+  "author": "Ethan Muller <ethan@heysparkbox.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sparkbox/safe-focus/issues"
+  },
+  "homepage": "https://github.com/sparkbox/safe-focus#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0",
+    "jest-environment-jsdom-sixteen": "^1.0.0",
+    "jsdom": "^16.1.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
