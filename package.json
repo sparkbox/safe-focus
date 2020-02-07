@@ -1,6 +1,6 @@
 {
   "name": "@sparkbox/safe-focus",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A utility file to add a custom outline style for all selectable components.",
   "main": "index.js",
   "directories": {
