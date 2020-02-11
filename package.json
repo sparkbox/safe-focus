@@ -7,7 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore .",
+    "lint": "npm run lint:js && npm run lint:style",
+    "lint:style": "stylelint **.scss --formatter verbose",
+    "lint:js": "eslint --ignore-path .gitignore .",
     "test": "jest"
   },
   "repository": {
@@ -27,13 +29,15 @@
   "homepage": "https://github.com/sparkbox/safe-focus#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.8.4",
+    "@sparkbox/stylelint-config-sparkbox": "^1.0.0",
     "babel-jest": "^25.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
     "jest": "^25.1.0",
     "jest-environment-jsdom-sixteen": "^1.0.0",
-    "jsdom": "^16.1.0"
+    "jsdom": "^16.1.0",
+    "stylelint": "^13.1.0"
   },
   "jest": {
     "transform": {
