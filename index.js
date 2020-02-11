@@ -1,3 +1,3 @@
-import initSafeFocus from './lib/safe-focus';
+import initSafeFocus from './lib/js/safe-focus';
 
 export default initSafeFocus;

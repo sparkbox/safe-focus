@@ -1,0 +1,5 @@
+@mixin safe-focus() {
+  html.safe-focus & {
+    @content;
+  }
+}
