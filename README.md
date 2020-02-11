@@ -3,6 +3,9 @@
 
 Safe Focus is a utility file to add a custom outline style for all selectable components.
 
+## Installation
+Run `npm i @sparkbox/safe-focus -P` in your local project.
+
 ## Usage
 
 ### JavaScript
