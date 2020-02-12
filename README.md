@@ -17,7 +17,14 @@ safeFocus();
 ```
 
 ### Sass
-To use the `safe-focus` mixin, import the package into your project's mixin file.
+To use the `safe-focus` mixin, start by exposing `node_modules` to Sass in `package.json`.
+```
+"sass": {
+    "includePaths": ["./node_modules"]
+},
+```
+
+Next, import the package into your project's mixin file.
 ```
 @import '~@sparkbox/safe-focus/index';
 ```
