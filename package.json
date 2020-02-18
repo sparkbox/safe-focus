@@ -10,6 +10,7 @@
     "lint": "npm run lint:js && npm run lint:style",
     "lint:style": "stylelint **.scss --formatter verbose",
     "lint:js": "eslint --ignore-path .gitignore .",
+    "release": "standard-version && git push --follow-tags origin head",
     "test": "jest"
   },
   "repository": {
@@ -37,6 +38,7 @@
     "jest": "^25.1.0",
     "jest-environment-jsdom-sixteen": "^1.0.0",
     "jsdom": "^16.1.0",
+    "standard-version": "^7.1.0",
     "stylelint": "^13.1.0"
   },
   "jest": {
