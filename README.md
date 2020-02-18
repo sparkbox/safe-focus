@@ -53,7 +53,3 @@ html.safe-focus {
 ```
 
 Since the `safe-focus` CSS class added to the DOM may change, it is not recommended to directly reference the `safe-focus` CSS class in your project.
-
-#### Important
-Safe Focus does not come pre-transpiled. Please be sure to import it into a file that is run through a transpiler, like Babel.
-
