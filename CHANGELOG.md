@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/sparkbox/safe-focus/compare/v1.2.0...v1.2.1) (2020-02-19)
+
+
+### Bug Fixes
+
+* :bug: Include `index.scss` in build ([34f4734](https://github.com/sparkbox/safe-focus/commit/34f4734ff530d8b54ded3c2d81151a82fa7e3c3f))
+
 ## 1.2.0 (2020-02-19)
 
 
