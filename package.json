@@ -55,6 +55,7 @@
   },
   "files": [
     "dist",
-    "index.scss"
+    "index.scss",
+    "lib/scss"
   ]
 }

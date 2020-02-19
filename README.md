@@ -9,11 +9,11 @@ Run `npm i @sparkbox/safe-focus -P` in your local project.
 ## Usage
 
 ### JavaScript
-Require the package in your project and init the default import.
+Require the package in your project and init the `safeFocusInit` import.
 ```
-import safeFocus from '@sparkbox/safe-focus';
+import { safeFocusInit } from '@sparkbox/safe-focus';
 
-safeFocus();
+safeFocusInit();
 ```
 
 ### Sass
