@@ -54,6 +54,7 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "index.scss"
   ]
 }
