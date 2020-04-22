@@ -33,20 +33,20 @@
   },
   "homepage": "https://github.com/sparkbox/safe-focus#readme",
   "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/preset-env": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
     "@sparkbox/stylelint-config-sparkbox": "^1.0.0",
-    "babel-jest": "^25.1.0",
+    "babel-jest": "^25.4.0",
     "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.1",
-    "jest": "^25.1.0",
-    "jest-environment-jsdom-sixteen": "^1.0.0",
-    "jsdom": "^16.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^25.4.0",
+    "jest-environment-jsdom-sixteen": "^1.0.3",
+    "jsdom": "^16.2.2",
+    "rollup": "^1.32.1",
+    "rollup-plugin-babel": "^4.4.0",
     "standard-version": "^7.1.0",
-    "rollup": "^1.31.1",
-    "rollup-plugin-babel": "^4.3.3",
-    "stylelint": "^13.1.0"
+    "stylelint": "^13.3.3"
   },
   "jest": {
     "transform": {
