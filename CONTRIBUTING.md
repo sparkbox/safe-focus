@@ -10,11 +10,22 @@
 - Assign a [sparkboxer][contributors] to review your PR
 
 ## Commit Style
-We use [Conventional Commits] and [Standard Version] to automate versioning of this package. Commit messages must be prefixed with a valid commit type.
+We use [Conventional Commits] and [Standard Version] to automate versioning of this package. Commit messages must be prefixed with a valid commit type and the commit type cannot be prefixed with any additional text.
 
-Example:
+Supported commit types include `feat`, `fix`, `docs`, `style`, `refactor`, and `test`.
+
+Valid example:
 ```sh
 feat: add new linting rule for ...
+```
+
+Invalid examples:
+```sh
+feature: add new linting rule for ...
+```
+
+```sh
+:sparkles: feat: add new linting rule for ...
 ```
 
 ℹ️ See the [Conventional Commits] page for further details on available commit types and how to handle breaking changes.
