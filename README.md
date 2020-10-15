@@ -55,7 +55,7 @@ This will result in the following transpiled CSS:
 }
 
 html.safe-focus {
-  my.button {
+  .my-button {
     outline: 1px solid #264b59;
   }
 }
