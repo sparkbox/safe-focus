@@ -37,7 +37,8 @@ When making a change that requires a new version to be published, you'll want to
 $ npm run release
 ```
 
-This will:
+After running this command, you'll get a preview of what the next tagged version would be. If you proceed, the release script will:
+
 - Use all commit messages since the latest version tag to determine the correct new version
 - Increment the version in package.json and package-lock.json
 - Create a tagged commit with the new version
@@ -46,6 +47,27 @@ This will:
 After your branch is merged, CI will take care of publishing to the npm registry.
 
 ℹ️ See the [Standard Version][standard cli] documentation for details on how to control versioning behavior.
+
+### Specifying a release type
+Sometimes, you'll want manual control over the next version of the package. In these case, you can use the special `--major`, `--minor`, and `--patch` flags.
+
+Major Release
+
+```sh
+npm run release -- --major
+```
+
+Minor Release
+
+```sh
+npm run release -- --minor
+```
+
+Patch Release
+
+```sh
+npm run release -- --patch
+```
 
 [pr]: https://github.com/sparkbox/safe-focus/compare
 [contributors]: https://github.com/sparkbox/safe-focus/graphs/contributors
